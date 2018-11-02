@@ -37,9 +37,6 @@ public class ActivityPlaya extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Log.d(MainActivity.TAG,"Playa-->onPause()" );
-
-
-        //finish();//finishing activity
     }
 
     @Override
