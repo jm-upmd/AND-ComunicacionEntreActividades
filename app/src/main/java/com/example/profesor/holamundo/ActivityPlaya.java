@@ -23,6 +23,12 @@ public class ActivityPlaya extends AppCompatActivity {
         String mensaje="¡He estado en la playa!";
         Intent intent2=new Intent();
         intent2.putExtra("MENSAJE",mensaje);
+       
+        // Método setReult prepara los datos que recivirá la activity llamante.
+        // RESULT_OK es una constante del sistema Android que podemos usar aquí para indicar a la activity llamant
+        // que todo ha ido OK. En contraposición podríamos utilizar RESULT_CANCELED, o cualquier valor int que nosotros
+        // queramos definir para tal menester.
+        
         setResult(RESULT_OK,intent2);
 
     }
